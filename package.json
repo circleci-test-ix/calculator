@@ -1,0 +1,36 @@
+{
+  "name": "calculator",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "http://ahfarmer.github.io/calculator",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "gh-pages": "^1.1.0",
+    "prettier": "1.13.0",
+    "react-scripts": "^1.1.4"
+  },
+  "dependencies": {
+    "big.js": "^5.1.2",
+    "github-fork-ribbon-css": "^0.2.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint": "eslint \"src/**/*.js\""
+  },
+  "prettier": {
+    "trailingComma": "all"
+  }
+}
