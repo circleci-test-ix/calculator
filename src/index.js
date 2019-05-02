@@ -4,5 +4,4 @@ import App from "./component/App";
 import "./index.css";
 import "github-fork-ribbon-css/gh-fork-ribbon.css";
 
-var bob = "SDfd"
 ReactDOM.render(<App />, document.getElementById("root"));
